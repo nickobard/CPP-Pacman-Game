@@ -43,7 +43,6 @@ Application is created using SDL graphic library.
 ![](docs/pacman_game.jpg)
 
 Also look at video how it works:
-[pacman_showcase.webm](docs/pacman_showcase.webm)
 [pacman_showcase.mp4](docs/pacman_showcase.mp4)
 
 ### Installing Dependencies

@@ -74,7 +74,9 @@ make run
 
 ### Documentation:
 
-To generate documentation run:
+Read documentation in the [refman.pdf](./refman.pdf) file.
+
+To generate documentation, run:
 
 ```shell
 make doc
@@ -82,9 +84,21 @@ make doc
 
 Then open doc/html/index.html to read generated documentation.
 
+To generate the pdf documentation file, the texlive (on Linux) is required, install the following package (note, it will take several GBs of memory):
+
+```
+texlive-scheme-full
+```
+
+Run the following command:
+
+```shell
+make pdf
+```
+
+If any latex errors appear, probably you will have to install some packages, otherwise it is up to you to troubleshoot them.
 
 Short showcase of documentation:
-
 
 ![documentation_main_page.png](docs/documentation_main_page.png)
 ![documentation_game_actor.png](docs/documentation_game_actor.png)

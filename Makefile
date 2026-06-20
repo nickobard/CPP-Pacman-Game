@@ -120,11 +120,15 @@ fsall: all
 # ------------------------------------------------------------------
 
 
-doc: 
+doc:
 	doxygen Doxyfile
 
 cleandoc:
 	-rm -rf doc
+
+pdf:
+	make -C ./doc/latex
+	cp -f ./doc/latex/refman.pdf ./
 
 
 # ------------------------------------------------------------------
